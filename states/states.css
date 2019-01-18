@@ -31,18 +31,17 @@ button{
     position: relative;
     top:40%;
     left:35%;
+    transition-duration: 1s;
 }
 button:hover{
     border: 1px solid var(--hover);
     background-color: var(--hover);
     color:var(--textcolor1);
-    transition-duration: 1s;
 }
 button:focus{
     border:0.8px solid var(--hover);
     background-color: transparent;
     color:var(--hover);
-    transition-duration: 1.5s;
 }
 .right{
     background-color: var(--ashcolor);
@@ -56,12 +55,13 @@ button:focus{
     top:25%;
     left:25%;
     overflow: hidden;
-    
+    transition-duration: 1.5s;
 }
 .figure_style1{
     background-color: var(--textcolor1);
     border-radius: 10px;
     height: 30%;
+    transition-duration: 1.5s;
 }
 p{
     margin: 20px 0px 20px 0px;
@@ -74,11 +74,9 @@ p{
 }
 .holder:hover{
     background-color: var(--leftbdg);
-    transition-duration: 1.5s;
 } 
 .holder:hover .figure_style1 {
     background-color: var(--hover);
-    transition-duration: 1.5s;
 } 
 .figure_style2{
     background-color: var(--hover);
