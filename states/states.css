@@ -78,7 +78,7 @@ p{
 .holder:hover .figure_style1 {
     background-color: var(--hover);
 } 
-.figure_style2{
+.figure_style2:hover{
     background-color: var(--hover);
     height: 70%;
 } 
